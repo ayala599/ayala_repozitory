@@ -21,6 +21,7 @@ public class Homworkmarachim {
 			System.out.println(" ");
 		}
 		*/
+		//targil 2
 		int [] arrNums = {1,2,3,4,56,78,89};
 		int caunt =0;
 		int sumzugi=0;
