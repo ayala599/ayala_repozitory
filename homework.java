@@ -5,20 +5,18 @@ public class homework {
 		// TODO Auto-generated method stub
 		
 	        /*
-		targil 1
+		//targil 1
 		String [] arrString = {"o","l","l","e","H"};
 		for (int i=4;i>=0;i--) {
 			//System.out.print(arrString[i]);
 	        }
 		//targil 2
-		
 		String str = "hello automation class";
 		String firstWord = str.substring(0, 5);
 		String secondWord =str.substring(str.length()-5,str.length());
 		System.out.println(firstWord+" "+secondWord);
 		
 		//targil 3:
-		
 		char [] arrString = {'o','l','l','e','H'};
 		String helloStr = new String(arrString);
 		String newString= "";
