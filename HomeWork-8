@@ -35,7 +35,7 @@ public class Main {
 		
 		
 	}
-
+	//functions:
 	//targil 1:
 	/*
 	public static int  checkNamooch(int r,int t,int c) {
@@ -56,7 +56,7 @@ public class Main {
 	return namooch;
 	}
 	
-	//tardil 2:
+	//targil 2:
 	public static double checkMemuza(double x,double y,double z) {
 		double memuzzz= (x+y+z)/3;
 		return memuzzz;
