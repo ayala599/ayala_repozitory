@@ -1,0 +1,116 @@
+package ll8;
+
+import java.util.Scanner;
+
+public class Main {
+	static Scanner scan = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		//targil 1:
+		/*
+		System.out.println("Enter the first number pllease:");
+		int x=scan.nextInt();
+		System.out.println("Enter the seconed number pllease:");
+		int y=scan.nextInt();
+		System.out.println("Enter the third number pllease:");
+		int z=scan.nextInt();
+		int small = checkNamooch(x, y, z);
+		System.out.println(String.format("The smallest number is: %s",small));
+		
+		//targil 2:
+		System.out.println("Enter the first number pllease:");
+		double h=scan.nextInt();
+		System.out.println("Enter the seconed number pllease:");
+		double i=scan.nextInt();
+		System.out.println("Enter the third number pllease:");
+		double j=scan.nextInt();
+		double evg;
+		System.out.println(String.format("The memuzta is: %s",evg=checkMemuza(h, i, j)));
+		*/
+		//targil 3:
+		
+		enterPass();
+		
+		
+	}
+
+	//targil 1:
+	/*
+	public static int  checkNamooch(int r,int t,int c) {
+	int namooch =0;
+		if(r<t && r<c){
+		namooch=r;
+		}
+		else
+		{
+			if(t<r && t<c) {
+			namooch=t;
+			}
+			else
+			{
+			namooch=c;
+			}
+		}
+	return namooch;
+	}
+	
+	//tardil 2:
+	public static double checkMemuza(double x,double y,double z) {
+		double memuzzz= (x+y+z)/3;
+		return memuzzz;
+	}
+	
+	//targil 3;
+	 
+	 */
+	public static void enterPass() {
+		System.out.println("please enter a password here.");
+		String password = scan.next();
+		checkPassw(password);
+		
+		
+	}
+	public static void checkPassw(String sismaa) {
+		String pelet;
+		int x=sismaa.length();
+		char c;
+		 int caunter =0;
+		if(sismaa.length()<8) {
+			
+			pelet="the password must contain at leat 8 tavim.";
+			System.out.println(pelet);
+			enterPass();
+			
+			
+		}
+		for (int i = 0; i < x; i++) {
+			c=sismaa.charAt(i);
+			if(Character.isDigit(c)) {
+				caunter++;
+				
+			}
+			if(!Character.isLetterOrDigit(c)) {
+				System.out.println("this must password contains just letter or digit.");
+				enterPass();
+			}
+			
+		}
+		if(caunter<2) {
+			System.out.println("not good.password must contain at least 2 digits..");
+		    enterPass();
+		}
+			
+		System.out.println("password is perfect!"); 
+		
+		
+	}
+}
+
+
+	
+	
+		
+	
+	
