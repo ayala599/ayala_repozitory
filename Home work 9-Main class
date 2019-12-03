@@ -1,1 +1,20 @@
+package shiuor8;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayHelper a = new ArrayHelper();
+		int arr1[] = {0,1,2,56,4,5,8};
+		//targil1
+		a.printArr(arr1);
+		//targil2
+		a.creatArr(7);
+		//targil3
+		a.hacpaltatArr(arr1);
+		
+		
+	}
+
+}
 
